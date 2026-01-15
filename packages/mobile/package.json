@@ -1,0 +1,29 @@
+{
+  "name": "mobile",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/ncksllvn/lerna-explore#readme",
+  "bugs": {
+    "url": "https://github.com/ncksllvn/lerna-explore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncksllvn/lerna-explore.git"
+  },
+  "license": "ISC",
+  "author": "Nicholas Sullivan <ncksllvn@gmail.com>",
+  "main": "lib/mobile.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/mobile.test.js"
+  },
+  "dependencies": {
+    "core": "file:../core"
+  }
+}
