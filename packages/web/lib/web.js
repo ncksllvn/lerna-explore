@@ -10,4 +10,4 @@ function web() {
   return 'Hello from web';
 }
 
-console.log('THIS IS A LOG')
+console.log('THIS IS A LOG AGAIN')
