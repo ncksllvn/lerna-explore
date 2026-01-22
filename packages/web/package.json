@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node ./lib/web.js",
     "test": "node ./__tests__/web.test.js",
-    "prepublishOnly": "echo hey from web"
+    "prepublishOnly": "echo hey from web >> test.txt"
   },
   "dependencies": {
     "core": "file:../core"
