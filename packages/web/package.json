@@ -7,6 +7,7 @@
   "bugs": {
     "url": "https://github.com/ncksllvn/lerna-explore/issues"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ncksllvn/lerna-explore.git"
@@ -23,7 +24,8 @@
   ],
   "scripts": {
     "start": "node ./lib/web.js",
-    "test": "node ./__tests__/web.test.js"
+    "test": "node ./__tests__/web.test.js",
+    "prepublishOnly": "echo hey from web"
   },
   "dependencies": {
     "core": "file:../core"
