@@ -9,5 +9,3 @@ console.log(core())
 function web() {
   return 'Hello from web';
 }
-
-console.log('web change again')
