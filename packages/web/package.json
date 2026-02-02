@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "web",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "homepage": "https://github.com/ncksllvn/lerna-explore#readme",
   "bugs": {
